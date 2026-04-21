@@ -25,3 +25,24 @@ The classifier follows these steps:
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+### 2. Run the program
+```bash
+python clasificador.py
+```
+
+### 3. Enter a new point
+ ```bash
+x = 2 (or another)
+y = 3 (or another)
+```
+
+### 4. Output
+The program will:
+- Display distances to each class
+- Indicate the assigned class (or none)
+
+
+
+
