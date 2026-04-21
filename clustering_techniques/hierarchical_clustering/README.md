@@ -29,6 +29,7 @@ During execution, the clustering process is visualized step by step, and the fin
 ## Distance metric
 
 Single linkage: 
+
 The distance between two clusters is defined as the minimum distance between any pair of points belonging to those clusters.
 
 ## Status
