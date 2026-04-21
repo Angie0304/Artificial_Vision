@@ -2,6 +2,7 @@
 
 This project implements an image processing system based on chain code representation, allowing the analysis and description of object boundaries within images. The system is structured in a modular way, separating the user interface, core algorithms, and utility functions to ensure clarity and scalability.
 
+## Project Module
 ```text
 image_chain_code/
 ├── README.md                    # Documentation and execution guide
