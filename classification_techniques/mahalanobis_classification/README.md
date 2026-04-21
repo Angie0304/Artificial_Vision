@@ -25,3 +25,13 @@ The classifier follows these steps:
 7. Euclidean distance
 8. Mahalanobis distance
 9. Compute distances and assign the point to the nearest class
+
+### Mahalanobis Distance
+
+d(x,\mu)=\sqrt{(x-\mu)^T S^{-1} (x-\mu)}
+
+Where:
+- ( x ) is the input point
+- ( \mu ) is the class centroid
+- ( S^{-1} ) is the inverse covariance matrix
+
