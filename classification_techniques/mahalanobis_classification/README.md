@@ -2,9 +2,9 @@
 
 ### Module Structure
 
-⁠``` text
-mahalanobis_classification/
-├──  clasificador.py             # Código del clasificador por distancia mahalanobis 
-├──  resultado_clasificador.png  # Gráfica de dispersión con covarianza y punto nuevo
-└──  README.md                   # Documentación técnica y guía de ejecución                 
- ⁠
+```text
+clasificacion_mahalanobis/
+├── clasificador.py             # Mahalanobis distance classifier implementation
+├── resultado.png               # Scatter plot showing covariance and classification
+└── README.md                   # Documentation and execution guide
+```
