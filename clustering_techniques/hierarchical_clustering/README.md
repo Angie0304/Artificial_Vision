@@ -1,7 +1,7 @@
 # Hierarchical Clustering
 This module implements a hierarchical clustering algorithm using a bottom-up (agglomerative) approach. It groups data points based on their similarity and visualizes the clustering process step by step.
 
-### Module Structure
+## Module Structure
 
 ```text
 hierarchical_clustering/
@@ -13,7 +13,7 @@ hierarchical_clustering/
 ```
 
 
-### How it works
+## How it works
 
 The algorithm starts by treating each point as an individual cluster and iteratively merges clusters based on their similarity.
 
@@ -26,6 +26,9 @@ The process involves:
 
 During execution, the clustering process is visualized step by step, and the final result is represented with a dendrogram.
 
-### Distance metric
+## Distance metric
 
 Single linkage: the distance between two clusters is defined as the minimum distance between any pair of points belonging to those clusters.
+
+## Status
+Completed
