@@ -49,3 +49,6 @@ The system provides a menu-based interface where you can:
 - Load and process images
 - Apply the chain code algorithm
 - Analyze boundary representations
+
+## Status
+Completed
