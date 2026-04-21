@@ -28,7 +28,9 @@ The classifier follows these steps:
 
 ### Mahalanobis Distance
 
+$$
 d(x,\mu)=\sqrt{(x-\mu)^T S^{-1} (x-\mu)}
+$$
 
 Where:
 - ( x ) is the input point
