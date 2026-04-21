@@ -12,6 +12,5 @@ Artificial_Vision/
 ├── clustering_techniques      # Hierarchical clustering algorithms
 ├── README.md                  # Main documentation and index
 └── requirements.txt           # List of dependencies
-
-´´´
+```
 
