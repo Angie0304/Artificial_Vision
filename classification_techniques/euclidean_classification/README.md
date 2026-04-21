@@ -10,3 +10,12 @@ meuclidean_classification/
 ├── requirements.txt            # Module dependencies 
 └── resultado.png               # Scatter plot showing centroids and classification
 ```
+
+## ⚙️ How it works
+The classifier follows these steps:
+
+1. Define multiple classes with sample points  
+2. Compute the centroid of each class  
+3. Input a new point  
+4. Calculate the Euclidean distance to each centroid  
+5. Assign the point to the nearest class (if within threshold)  
