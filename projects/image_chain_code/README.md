@@ -20,7 +20,7 @@ image_chain_code/
     │   └── funciones_estandar_V2.py
     └── main.py                  # Entry point             
 ```
-## How works it
+## How it works 
 
 The system processes images to extract boundary information. After loading and preprocessing the image, boundary points are identified and represented as connected pixels. The core algorithm computes the chain code, encoding the direction between consecutive points to provide a compact representation of the object’s shape.
 
