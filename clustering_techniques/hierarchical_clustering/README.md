@@ -8,5 +8,6 @@ hierarchical_clustering/
 ├── README.md              # Documentation and usage guide
 ├── clustering.py          # Hierarchical clustering implementation
 ├── dendograma.png         # Dendrogram visualization of the clustering process
+├── requirements.txt       # Module dependencies
 └── resultado_final.png    # Final clustering result visualization
 ```
