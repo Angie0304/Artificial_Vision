@@ -11,7 +11,7 @@ meuclidean_classification/
 └── resultado.png               # Scatter plot showing centroids and classification
 ```
 
-## ⚙️ How it works
+## How it works
 The classifier follows these steps:
 
 1. Define multiple classes with sample points  
@@ -20,7 +20,7 @@ The classifier follows these steps:
 4. Calculate the Euclidean distance to each centroid  
 5. Assign the point to the nearest class (if within threshold)
 
-## ▶️ Usage
+## Usage
 
 ### 1. Install dependencies
 ```bash
