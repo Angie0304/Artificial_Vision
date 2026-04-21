@@ -6,7 +6,6 @@
 image_chain_code/
 └── src/
     ├── modules/                 # Core logic for chain code processing
-    │   ├── __pycache__/         # Python cache files (auto-generated)
     │   ├── algoritmo_cadena.py  # Chain code algorithm implementation
     │   ├── color.py             # Color handling utilities
     │   ├── imagen.py            # Image processing functions
