@@ -25,4 +25,12 @@ image_k_means/
 
 ## ⚙️ How it works
 
-Each pixel in the image is treated as a data point in color space. The system groups pixels into K clusters based on their similarity, iteratively updating cluster centers until stable groups are formed. The result is a segmented image where each region is represented by its corresponding cluster color.
+Each pixel is represented as a point in color space, and the image is reshaped into a set of pixel values. The algorithm initializes K centroids and iteratively updates them based on the mean of assigned pixels until convergence.
+
+The final image is reconstructed using the cluster centroids, producing a segmented version of the original image.
+
+
+## Usage
+
+
+
