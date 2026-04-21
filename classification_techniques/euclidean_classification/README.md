@@ -4,7 +4,7 @@
 
 ```text
 meuclidean_classification/
-├── clasificador.py             # Mahalanobis distance classifier implementation
-├── resultado.png               # Scatter plot showing covariance and classification
+├── clasificador.py             # Euclidean distance classifier implementation
+├── resultado.png               # Scatter plot showing centroids and classification
 └── README.md                   # Documentation and execution guide
 ```
