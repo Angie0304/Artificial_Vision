@@ -2,7 +2,7 @@
 
 This module implements a classification system using **Mahalanobis distance**, which accounts for the data distribution and improves classification in datasets with varying variance. Euclidean distance is also included for comparison.
 
-### Module Structure
+## Module Structure
 
 ```text
 mahalanobis_classification/
@@ -12,7 +12,7 @@ mahalanobis_classification/
 └── resultado.png               # Scatter plot showing covariance and classification
 ```
 
-### How it works
+## How it works
 
 The classifier follows these steps:
 
@@ -27,7 +27,7 @@ The classifier follows these steps:
 7. Compute distances and assign the point to the nearest class
 
    
-### Mahalanobis Distance
+## Mahalanobis Distance
 
 $$
 d(x,\mu)=\sqrt{(x-\mu)^T S^{-1} (x-\mu)}
@@ -58,7 +58,7 @@ The program will:
 - Generate and save a visualization (resultado.png)
 
 
-### Status 
+## Status 
 Completed
 
 
