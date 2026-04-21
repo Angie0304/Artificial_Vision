@@ -16,5 +16,5 @@ image_chain_code/
     ├── utils/                        # Helper functions
     │   └── funciones_estandar_V2.py
     ├── main.py                       # Entry point
-    └── README.md                      
+    └── README.md                     # Documentation and execution guide                
 ```
