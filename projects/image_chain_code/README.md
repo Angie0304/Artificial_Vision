@@ -5,6 +5,7 @@
 ```text
 image_chain_code/
 ├── README.md                    # Documentation and execution guide
+├── requeriments.txt             # Project dependencies
 └── src/
     ├── modules/                 # Core algorithm logic
     │   ├── algoritmo_cadena.py
