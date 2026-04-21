@@ -6,5 +6,6 @@
 mahalanobis_classification/
 ├── README.md                   # Documentation and execution guide
 ├── clasificador.py             # Mahalanobis distance classifier implementation
+|── requirements.txt            # Module dependencies
 └── resultado.png               # Scatter plot showing covariance and classification
 ```
