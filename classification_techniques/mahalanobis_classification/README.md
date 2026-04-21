@@ -51,7 +51,7 @@ pip install -r requirements.txt
 python clasificador.py
 ```
 
-## 3. Output 
+### 3. Output 
 The program will:
 - Display distances to each class
 - Assign the point to a class
