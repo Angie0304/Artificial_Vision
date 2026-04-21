@@ -97,6 +97,6 @@ plt.axvline(0, color='black', linewidth=1)
 plt.grid(True) 
 
 # Guardamos imagen 
-plt.savefig('resultado_euclidiano.png', dpi=300, bbox_inches='tight')
+plt.savefig('resultado.png', dpi=300, bbox_inches='tight')
 
 plt.show()
