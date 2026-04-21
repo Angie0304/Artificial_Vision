@@ -29,6 +29,13 @@ Each pixel is represented as a point in color space, and the image is reshaped i
 
 The final image is reconstructed using the cluster centroids, producing a segmented version of the original image.
 
+The system is organized into modules that handle:
+
+- Image processing  
+- Pixel clustering using K-Means  
+- Centroid computation  
+- Segmented image generation  
+
 
 ## Usage
 
