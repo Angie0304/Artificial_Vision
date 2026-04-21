@@ -33,7 +33,8 @@ d(x,\mu)=\sqrt{(x-\mu)^T S^{-1} (x-\mu)}
 $$
 
 Where:
-- ( x ) is the input point
-- ( \mu ) is the class centroid
-- ( S^{-1} ) is the inverse covariance matrix
+
+- x: input point  
+- μ: class centroid  
+- S⁻¹: inverse covariance matrix  
 
