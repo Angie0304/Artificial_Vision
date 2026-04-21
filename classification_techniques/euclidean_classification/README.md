@@ -20,6 +20,9 @@ The classifier follows these steps:
 4. Calculate the Euclidean distance to each centroid  
 5. Assign the point to the nearest class (if within threshold)
 
+A threshold (15) is used: if the minimum distance exceeds this value, the point is not assigned to any class.
+
+
 ## Usage
 
 ### 1. Install dependencies
@@ -42,6 +45,7 @@ y = 3 (or another)
 The program will:
 - Display distances to each class
 - Indicate the assigned class (or none)
+- Generate and save a visualization (resultado_euclidiano.png)
 
 
 
