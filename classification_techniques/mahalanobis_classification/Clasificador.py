@@ -139,6 +139,7 @@ def graficar_datos(dim, clases, centroides, puntoNuevo, num_clases):
         plt.legend()
         plt.grid(True)
         plt.title('Clasificación en 2D')
+        plt.savefig("resultado.png", dpi=300)
         plt.show()
     else:
         fig = plt.figure(figsize=(8, 6))
