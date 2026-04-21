@@ -4,17 +4,17 @@
 
 ```text
 image_chain_code/
-├── README.md                         # Documentation and execution guide
+├── README.md                    # Documentation and execution guide
 └── src/
-    ├── modules/                      # Core algorithm logic
+    ├── modules/                 # Core algorithm logic
     │   ├── algoritmo_cadena.py
     │   ├── color.py
     │   ├── imagen.py
     │   ├── matriz_distancia.py
     │   └── punto.py
-    ├── ui/                           # User interaction
+    ├── ui/                      # User interaction
     │   └── menu.py
-    ├── utils/                        # Helper functions
+    ├── utils/                   # Helper functions
     │   └── funciones_estandar_V2.py
-    └── main.py                       # Entry point             
+    └── main.py                  # Entry point             
 ```
