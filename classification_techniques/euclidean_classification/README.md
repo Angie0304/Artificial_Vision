@@ -48,7 +48,7 @@ python clasificador.py
 The program will:
 - Display distances to each class
 - Indicate the assigned class (or none)
-- Generate and save a visualization (resultado_euclidiano.png)
+- Generate and save a visualization (resultado.png)
 
 ## Status
 Completed
