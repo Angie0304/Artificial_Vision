@@ -4,11 +4,14 @@ This repository contains practical exercises and projects focused on the impleme
 
 ### Module Structure
 
-´´´ text
+
+```text
 Artificial_Vision/
-├── projects                    # Projects: Chain Code, K-means, and Multi-method Classification
+├── projects                   # Projects: Chain Code, K-means, and Multi-method Classification
 ├── classification_techniques  # Euclidean and Mahalanobis classifiers
 ├── clustering_techniques      # Hierarchical clustering algorithms
 ├── README.md                  # Main documentation and index
 └── requirements.txt           # List of dependencies
+
 ´´´
+
