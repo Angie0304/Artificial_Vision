@@ -18,4 +18,10 @@ The classifier follows these steps:
 2. Compute the centroid of each class  
 3. Input a new point  
 4. Calculate the Euclidean distance to each centroid  
-5. Assign the point to the nearest class (if within threshold)  
+5. Assign the point to the nearest class (if within threshold)
+
+## ▶️ Usage
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
