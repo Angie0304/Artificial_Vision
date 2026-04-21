@@ -13,7 +13,7 @@ hierarchical_clustering/
 ```
 
 
-## ⚙️ How it works
+## How it works
 
 The algorithm starts by treating each point as an individual cluster and iteratively merges clusters based on their similarity.
 
@@ -25,4 +25,6 @@ The process involves:
 
 
 During execution, the clustering process is visualized step by step, and the final result is represented with a dendrogram.
+
+## 
 Single linkage: the distance between two clusters is defined as the minimum distance between any pair of points belonging to those clusters.
