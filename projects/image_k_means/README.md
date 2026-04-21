@@ -1,5 +1,5 @@
 # Image K Means
-This project implements an image segmentation system using the K-Means clustering algorithm, grouping pixels based on their color similarity.
+This project implements image segmentation using the **K-Means clustering algorithm**, grouping pixels by color similarity to produce simplified representations of images.
 
 ## Project structure
 ```text
