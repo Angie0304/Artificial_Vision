@@ -2,7 +2,7 @@
 
 This repository contains practical exercises and projects focused on the implementation of various algorithms for image analysis and classification, with an emphasis on shape descriptors and statistical decision methods
 
-### Module Structure
+### Repository Structure
 
 
 ```text
