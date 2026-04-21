@@ -37,6 +37,7 @@ python clasificador.py
 
 ### 3. Enter a new point
 Example input:
+
 x = 2  
 y = 3  
 
@@ -45,6 +46,9 @@ The program will:
 - Display distances to each class
 - Indicate the assigned class (or none)
 - Generate and save a visualization (resultado_euclidiano.png)
+
+## Status
+Completed
 
 
 
