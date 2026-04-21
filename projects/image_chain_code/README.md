@@ -29,4 +29,23 @@ The system is organized into modules that handle:
 - Image processing and representation  
 - Point and distance calculations  
 - Chain code computation  
-- User interaction through a menu-driven interface  
+- User interaction through a menu-driven interface
+
+## Usage 
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Run the program
+```bash
+python src/main.py
+```
+
+### 3. Interaction
+The system provides a menu-based interface where you can:
+
+- Load and process images
+- Apply the chain code algorithm
+- Analyze boundary representations
