@@ -35,12 +35,6 @@ pip install -r requirements.txt
 python clasificador.py
 ```
 
-### 3. Enter a new point
-Example input:
-
-x = 2  
-y = 3  
-
 ### 4. Output
 The program will:
 - Display distances to each class
