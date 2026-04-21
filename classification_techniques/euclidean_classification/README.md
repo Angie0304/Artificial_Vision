@@ -20,7 +20,7 @@ The classifier follows these steps:
 4. Calculate the Euclidean distance to each centroid  
 5. Assign the point to the nearest class (if within threshold)
 
-A threshold (15) is used: if the minimum distance exceeds this value, the point is not assigned to any class.
+The classification includes a threshold (15): if the minimum distance exceeds this value, the point is not assigned to any class.
 
 
 ## Usage
