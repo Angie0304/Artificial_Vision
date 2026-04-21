@@ -1,5 +1,6 @@
 # Image K Means
 
+```text
 image_k_means/
 └── src/
     ├── modules/                          # Core algorithm logic
@@ -15,3 +16,4 @@ image_k_means/
     ├── utils/                            # Helper functions
     │   └── funciones_estandar_V2.py
     └── main.py                           # Entry point
+```
