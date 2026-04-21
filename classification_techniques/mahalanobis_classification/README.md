@@ -16,16 +16,17 @@ mahalanobis_classification/
 
 The classifier follows these steps:
 
-1. Select the number of dimensions (2D or 3D)
-2. Define the number of classes
-3. Input centroid coordinates and dispersion for each class
-4. Generate synthetic data for each class
-5. Input a new point to classify
+1. Select the number of dimensions (2D or 3D)  
+2. Define the number of classes  
+3. Input centroid coordinates and dispersion for each class  
+4. Generate synthetic data for each class  
+5. Input a new point to classify  
 6. Choose a distance metric:
-7. Euclidean distance
-8. Mahalanobis distance
-9. Compute distances and assign the point to the nearest class
+   - Euclidean distance  
+   - Mahalanobis distance  
+7. Compute distances and assign the point to the nearest class
 
+   
 ### Mahalanobis Distance
 
 $$
@@ -36,5 +37,31 @@ Where:
 
 - x: input point  
 - μ: class centroid  
-- S⁻¹: inverse covariance matrix  
+- S⁻¹: inverse covariance matrix
+
+## ▶️ Usage
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Run the program
+```bash
+python clasificador.py
+```
+
+## 3. Output 
+The program will:
+- Display distances to each class
+- Assign the point to a class
+- Generate and save a visualization (resultado.png)
+
+
+### Status 
+Completed
+
+
+
+
 
