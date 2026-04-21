@@ -7,7 +7,7 @@ This repository contains practical exercises and projects focused on the impleme
 
 ```text
 Artificial_Vision/
-├── projects                   # Projects: Chain Code, K-means, Multi-method Classification
+├── projects                   # Projects: Image Chain Code and Image K-means
 ├── classification_techniques  # Euclidean and Mahalanobis classifiers
 ├── clustering_techniques      # Hierarchical clustering algorithms
 └── README.md                  # Main documentation and index 
