@@ -12,22 +12,20 @@ hierarchical_clustering/
 └── resultado_final.png    # Final clustering result visualization
 ```
 
-## How it works
 
-The algorithm follows an agglomerative (bottom-up) clustering approach:
+## ⚙️ How it works
 
-1. Generate random 2D data points  
-2. Initialize each point as its own cluster  
-3. Compute pairwise distances between all clusters  
-4. Merge the two closest clusters using **single linkage** (minimum distance)  
-5. Update clusters and repeat the process  
-6. Continue until all points belong to a single cluster  
-7. Store the merging history for visualization  
+This module applies an **agglomerative (bottom-up) clustering** approach.
 
-During execution, the clustering process is displayed step by step, showing how clusters are progressively grouped.
+Random 2D data points are generated, and each point is initially treated as its own cluster. The algorithm then computes pairwise distances between clusters and iteratively merges the two closest clusters.
 
-Finally, the algorithm builds a **dendrogram**, which represents the hierarchical relationships between clusters and the distances at which they were merged.
+Cluster similarity is defined using **single linkage**, meaning the distance between two clusters is the minimum distance between any pair of their points.
 
-### Distance Metric
+This process is repeated until all points are merged into a single cluster. During execution, the clustering process is visualized step by step, showing how clusters are progressively grouped.
 
- **single linkage**, defined as the minimum distance between points of two clusters.
+The merge history is stored and later used to construct a **dendrogram**, which represents the hierarchical relationships between clusters and the distances at which they were merged.
+
+
+## 📐 Distance Metric
+
+Single linkage: the distance between two clusters is defined as the minimum distance between any pair of points belonging to those clusters.
