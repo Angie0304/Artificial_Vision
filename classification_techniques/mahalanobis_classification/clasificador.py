@@ -153,6 +153,7 @@ def graficar_datos(dim, clases, centroides, puntoNuevo, num_clases):
         ax.set_zlabel('Z')
         ax.legend()
         ax.set_title('Clasificación en 3D')
+        plt.savefig("resultado.png", dpi=300)
         plt.show()
 
 # Dimensiones
