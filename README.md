@@ -10,6 +10,6 @@ Artificial_Vision/
 ├── projects                   # Projects: Chain Code, K-means, Multi-method Classification
 ├── classification_techniques  # Euclidean and Mahalanobis classifiers
 ├── clustering_techniques      # Hierarchical clustering algorithms
-└──  README.md                  # Main documentation and index 
+└── README.md                  # Main documentation and index 
 ```
 
