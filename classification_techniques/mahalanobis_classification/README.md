@@ -1,8 +1,6 @@
 # Mahalanobis Classification
 
-This module implements a classification system based on **Mahalanobis distance**, a metric that accounts for the distribution and correlation of the data. Unlike Euclidean distance, it considers the covariance of each class, making it more suitable for datasets with different variances and orientations.
-
-The system also includes Euclidean distance as a baseline for comparison.
+This module implements a classification system using **Mahalanobis distance**, which accounts for the data distribution and improves classification in datasets with varying variance. Euclidean distance is also included for comparison.
 
 ### Module Structure
 
