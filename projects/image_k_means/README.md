@@ -32,5 +32,25 @@ The final image is reconstructed using the cluster centroids, producing a segmen
 
 ## Usage
 
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Run the program
+```bash
+python src/main.py
+```
+
+### 3. Interaction
+
+The system allows you to:
+- Load an image
+- Select the number of clusters (K)
+- Generate a segmented image
+
+## Status 
+Completed
+
 
 
