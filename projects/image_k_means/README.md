@@ -3,6 +3,7 @@
 ```text
 image_k_means/
 ├── README.md                  # Documentation and execution guide
+├── requeriments.txt           # Project dependencies
 └── src/
     ├── modules/               # Core algorithm logic
     │   ├── algoritmo_cadena.py
