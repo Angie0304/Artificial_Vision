@@ -39,7 +39,7 @@ Where:
 - μ: class centroid  
 - S⁻¹: inverse covariance matrix
 
-## ▶️ Usage
+### Usage
 
 ### 1. Install dependencies
 ```bash
