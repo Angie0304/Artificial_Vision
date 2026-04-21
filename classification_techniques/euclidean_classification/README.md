@@ -36,10 +36,9 @@ python clasificador.py
 ```
 
 ### 3. Enter a new point
- ```bash
-x = 2 (or another)
-y = 3 (or another)
-```
+Example input:
+x = 2  
+y = 3  
 
 ### 4. Output
 The program will:
