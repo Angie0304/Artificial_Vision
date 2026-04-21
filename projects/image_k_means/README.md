@@ -24,4 +24,5 @@ image_k_means/
 ```
 
 ## ⚙️ How it works
-The image is first loaded and reshaped into a set of pixel values. The algorithm then initializes K centroids and assigns each pixel to the nearest centroid based on color similarity. Centroids are updated as the mean of their assigned pixels, and this process repeats until convergence. Finally, the image is reconstructed by replacing each pixel with the color of its corresponding cluster, producing a segmented version of the original image.
+
+Each pixel in the image is treated as a data point in color space. The system groups pixels into K clusters based on their similarity, iteratively updating cluster centers until stable groups are formed. The result is a segmented image where each region is represented by its corresponding cluster color.
