@@ -22,6 +22,15 @@ The classifier follows these steps:
 
 The classification includes a threshold (15): if the minimum distance exceeds this value, the point is not assigned to any class.
 
+## Euclidean distance
+$$
+d(x,y)=\sqrt{\sum_{i=1}^{n}(x_i - y_i)^2}
+$$
+
+Where:
+- x, y: feature vectors  
+- n: number of dimensions  
+
 
 ## Usage
 
