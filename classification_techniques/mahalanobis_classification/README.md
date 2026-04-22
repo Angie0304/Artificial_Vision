@@ -8,7 +8,7 @@ This module implements a classification system using **Mahalanobis distance**, w
 mahalanobis_classification/
 ├── README.md                   # Documentation and execution guide
 ├── clasificador.py             # Mahalanobis distance classifier implementation
-|── requirements.txt            # Module dependencies
+|── requirements.txt            # Dependencies
 └── resultado.png               # Scatter plot showing covariance and classification
 ```
 
