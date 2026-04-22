@@ -7,7 +7,7 @@ This module implements a Euclidean distance-based classifier for 2D data. It ass
 meuclidean_classification/
 ├── README.md                   # Documentation and execution guide
 ├── clasificador.py             # Euclidean distance classifier implementation
-├── requirements.txt            # Module dependencies 
+├── requirements.txt            # Dependencies 
 └── resultado.png               # Scatter plot showing centroids and classification
 ```
 
