@@ -51,7 +51,7 @@ The program will:
 - Generate and save a visualization (resultado.png)
 
 ## Status
-Completed
+Complete
 
 
 
