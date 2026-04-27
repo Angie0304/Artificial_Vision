@@ -57,7 +57,7 @@ The system allows you to:
 - Generate a segmented image
 
 ## Status 
-Completed
+Complete
 
 
 
