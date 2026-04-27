@@ -59,7 +59,7 @@ The program will:
 
 
 ## Status 
-Completed
+Complete
 
 
 
